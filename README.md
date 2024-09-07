@@ -1,6 +1,6 @@
 # Context-Aware Crowd Counting
 
-This repository contains the implementation of the paper on **"Context-Aware Crowd Counting"**(https://ieeexplore.ieee.org/document/8954153) as part of Deep Learning Course. The model was designed to improve the accuracy of crowd counting by incorporating contextual information, making it more robust against varying crowd densities, scales, and distributions. The work if compared by implementing other prevalent models for crowd counting- CSRNet, SPNet, and MCNN.
+This repository contains the implementation of the paper on **"Context-Aware Crowd Counting"**(https://ieeexplore.ieee.org/document/8954153) as part of Deep Learning Course. The model was designed to improve the accuracy of crowd counting by incorporating contextual information, making it more robust against varying crowd densities, scales, and distributions. The work is compared by implementing other prevalent models for crowd counting- CSRNet, SPNet, and MCNN.
 
 ## Project Overview
 
