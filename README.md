@@ -1,6 +1,6 @@
 # Context-Aware Crowd Counting
 
-This repository contains the implementation of the paper on **"Context-Aware Crowd Counting"**(https://ieeexplore.ieee.org/document/8954153) as part of Deep Learning Course. The model was designed to improve the accuracy of crowd counting by incorporating contextual information, making it more robust against varying crowd densities, scales, and distributions. The work is compared by implementing current state-of-the-art models for crowd counting- CSRNet, SPNet, and MCNN. 
+This repository contains the implementation of the paper on **"Context-Aware Crowd Counting"**(https://ieeexplore.ieee.org/document/8954153) as part of Deep Learning Course. The model was designed to improve the accuracy of crowd counting by incorporating contextual information, making it more robust against varying crowd densities, scales, and distributions. The work is compared by implementing current state-of-the-art models for crowd counting with the proposed Context-aware architecture. Following are the base models- CSRNet, SPNet, and MCNN.
 
 ## Project Overview
 
@@ -62,7 +62,7 @@ The models were trained and evaluated on the **ShanghaiTech A** dataset.
 
 | Model                | ShanghaiTech A (MAE) | ShanghaiTech A (Train Loss)|
 |----------------------|----------------------|----------------------------| 
-| CANet                | 91.8                 | 18.38                      |
+| CANet (VGG)          | 91.8**               | 18.38                      |
 | SPNet                | 36.98                | 11.51                      |
 | MCNN                 | 25.67                | 0.000147                   |  
 | CSRNet               | 23.15                | 0.4287                     |
